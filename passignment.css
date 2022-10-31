@@ -1,0 +1,259 @@
+/* Mahyaddin Jabbarli - mj21068*/
+
+
+@font-face{
+    src: url(../font/Roboto-BlackItalic.ttf);
+    font-family:blackitalic ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../font/Roboto-Regular.ttf);
+    font-family: roboto-regular;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../font/Roboto-Light.ttf);
+    font-family: roboto-light;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../font/Roboto-Medium.ttf);
+    font-family: roboto-medium;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../font/Roboto-Black.ttf);
+    font-family: roboto-black;
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    src: url(../font/Roboto-Bold.ttf);
+    font-family: roboto-bold;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html{
+    width: 100%;
+    min-width: 1500px;
+}
+body {
+    margin: 0;
+}
+
+nav{
+    height: 8vh;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    font-family: roboto-regular;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(60, 179, 113);
+}
+
+.header{
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-attachment: scroll;
+}
+
+.filter{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 250px;
+    width: 550px;
+    border-width: 2px;
+    border-color: rgb(234, 255, 197, 0.5);
+    border-radius: 25px;
+    background-color:rgb(234, 255, 197, 0.7);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.filter select{
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+
+
+}
+.form option{
+    font-family: roboto-light;
+}
+
+.indicator{
+    padding-top: 20px;
+}
+.indicator label{
+    font-family: roboto-light;
+}
+
+.filter div.form label{
+    font-size: 20px;
+}
+
+.filter div.indicator label{
+
+}
+
+.filter div.indicator label{
+    padding-top: 30px;
+}
+
+.button{
+    padding-top: 10px;
+    width: 30px;
+}
+
+.about{
+    height: 100vh;
+    background-color: rgb(250, 250, 250);
+}
+
+.about div p{
+    border: 1px solid rgb(250, 250, 250);
+    border-collapse: collapse;
+    height: 500px;
+    width: 1000px;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.about div h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+}
+
+.services{
+    height: 100vh;
+}
+
+.services h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+}
+
+.services ul{
+    text-align: center;
+}
+
+.services ul li{
+    padding: 50px;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+services ul li img{
+    height: 200px;
+    max-width: 100%;
+
+
+}
+
+.services ul li div p{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;
+    border-color: white;
+}
+
+.destinations{
+    background-color: rgb(250, 250, 250);
+    height: 100vh;
+    width: 100%;
+}
+
+.destinations h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+}
+
+.destinations ul li{
+    padding-left: 150px;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.destinations ul li img{
+    border-radius: 8px;
+    width: 300px;
+    background-color:  white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.destinations ul li img:hover{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destinations ul li div h2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.contact{
+    height: 30vh;
+}
+
+
+.contact h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto-bold;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+
+}
